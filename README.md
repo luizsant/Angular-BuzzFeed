@@ -1,28 +1,75 @@
-# BuzzFeedTestClone
+# Projeto Quiz BuzzFeed
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
 
-## Development server
+## Descrição do Projeto Quiz BuzzFeed
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O projeto "Quiz BuzzFeed" é uma aplicação web interativa desenvolvida durante o bootcamp de Desenvolvimento Front-end com Angular na plataforma DIO.me. Inspirado nos populares quizzes do BuzzFeed, este projeto oferece uma experiência envolvente e divertida para os usuários, testando seus conhecimentos em diversos tópicos através de uma série de perguntas com múltiplas escolhas.
 
-## Code scaffolding
+### Características Principais:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Interface Interativa**: A aplicação possui uma interface amigável e interativa, permitindo aos usuários navegar facilmente entre as perguntas e selecionar suas respostas.
 
-## Build
+- **Perguntas Dinâmicas**: As perguntas são apresentadas uma de cada vez, e a aplicação dinamicamente carrega a próxima pergunta com base na interação do usuário.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Respostas com Feedback Imediato**: Ao selecionar uma opção de resposta, os usuários recebem um feedback visual imediato, aumentando o engajamento.
 
-## Running unit tests
+- **Resultados Personalizados**: No final do quiz, os usuários recebem um resultado baseado em suas respostas, proporcionando uma conclusão personalizada para a experiência.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Design Responsivo**: O layout da aplicação é totalmente responsivo, garantindo uma experiência de usuário consistente em dispositivos de diferentes tamanhos, como desktops, tablets e celulares.
 
-## Running end-to-end tests
+### Tecnologias Utilizadas:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Angular**: Utilizado como o framework principal, o Angular ajuda a organizar o projeto como um aplicativo de página única (SPA), permitindo uma experiência de usuário suave e ágil.
 
-## Further help
+- **CSS e Media Queries**: Para a estilização, foi usado CSS puro, incluindo media queries para garantir que o aplicativo seja responsivo e visualmente atraente em vários dispositivos.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Angular-BuzzFeed
+- **Google Fonts (Roboto)**: A fonte Roboto do Google Fonts foi usada para manter a tipografia clara e legível, contribuindo para o design moderno e limpo do aplicativo.
+
+### Como Funciona:
+
+Os usuários começam o quiz e são apresentados a uma série de perguntas com várias opções de resposta. Após responderem todas as perguntas, um resultado é gerado com base nas escolhas do usuário, completando a experiência do quiz. O aplicativo foi projetado para ser intuitivo e fácil de usar, com um foco claro na experiência do usuário e na interatividade.
+
+### Desenvolvimento e Aprendizado:
+
+Este projeto foi desenvolvido como parte de um desafio prático no bootcamp de Desenvolvimento Front-end com Angular na DIO.me, permitindo a aplicação de conceitos aprendidos como data binding, componentes, serviços e roteamento no Angular. A construção do quiz também envolveu práticas essenciais de design responsivo e UX/UI.
+
+---
+
+Esta descrição oferece uma visão abrangente do seu projeto, destacando suas funcionalidades, tecnologias utilizadas e o valor educativo do processo de desenvolvimento. Sinta-se à vontade para ajustar ou expandir conforme necessário para atender às suas necessidades específicas. Precisa de mais alguma coisa?
+
+## Tecnologias Utilizadas
+
+- **Angular**: Framework principal para o desenvolvimento da aplicação.
+- **CSS**: Utilizado para estilização, incluindo media queries para responsividade.
+- **Google Fonts**: Para incorporar a fonte Roboto no projeto.
+
+## Funcionalidades
+
+- Exibição dinâmica de perguntas e opções.
+- Respostas interativas com botões clicáveis.
+- Resultados mostrados ao final do quiz.
+- Layout responsivo, adequado para desktop, tablets e celulares.
+
+## Instalação e Uso
+
+Para instalar e utilizar este projeto localmente, siga estas etapas:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/luizsant/Angular-BuzzFeed
+   ```
+2. Navegue até a pasta do projeto e instale as dependências:
+   ```bash
+   cd [NOME_DA_PASTA_DO_PROJETO]
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   ```
+4. Abra o navegador e acesse `http://localhost:4200`.
+
+## Agradecimentos
+
+Agradecimentos à equipe da DIO.me e a todos os participantes e instrutores do bootcamp.
